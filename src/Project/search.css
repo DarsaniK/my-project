@@ -1,0 +1,132 @@
+body{
+    background-image: url("D:\React\my-react-app\public\image 13.png"); 
+  background-size:1600px 720px;
+  background-repeat: no-repeat; 
+  background-attachment:fixed;
+  overflow: hidden;
+    }
+    .container { 
+        padding: 50px; 
+        width: 0%;
+        height: 10%;
+        padding: 100px;
+        position: fixed;
+        margin-top: 400px;
+        right:75%;
+        background-color:rgba(217, 217, 217, 0.7);
+        border: none;
+        }
+        .container2{
+          padding: 50px; 
+        width: 0%;
+        height: 10%;
+        padding: 100px;
+        position: fixed;
+        margin-top: 400px;
+        right:55%;
+        background-color:rgba(217, 217, 217, 0.7);
+        border: none;
+        }
+        .container3{
+          padding: 50px; 
+        width: 0%;
+        height: 10%;
+        padding: 100px;
+        position: fixed;
+        margin-top: 400px;
+        right:35%;
+        background-color:rgba(217, 217, 217, 0.7);
+        border: none;
+        }
+        .container4{
+          padding: 50px; 
+        width: 0%;
+        height: 10%;
+        padding: 100px;
+        position: fixed;
+        margin-top: 400px;
+        right:15%;
+        background-color:rgba(217, 217, 217, 0.7);
+        border: none;
+        }
+        .text{
+            position: fixed;
+            margin-top: 100px;
+            right:65%;
+            font-size:xx-large;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .pic1{ 
+              width: 135px;
+              height: 130px;
+            position: fixed;
+            right: 1188px;
+            margin-top: 350px;
+            }
+            .pic2{ 
+              width: 130px;
+              height: 130px;
+            position: fixed;
+            right: 880px;
+            margin-top: 350px;
+            }
+            .pic3{ 
+              width: 125px;
+              height: 130px;
+            position: fixed;
+            right: 579px;
+            margin-top: 350px;
+            }
+            .pic4{ 
+              width: 110px;
+              height: 130px;
+            position: fixed;
+            right: 278px;
+            margin-top: 350px;
+            }
+            .logo{
+              position:absolute;
+              top: 5px;
+              left: 50px;
+              width:120px;
+              height:120px;
+               }
+               .simple{
+                position:absolute;
+                top: 50px;
+                left: 220px;
+                width: 630px;
+                height:260px;
+                 }
+                .cont{
+                  position:absolute;
+              bottom: 110px;
+              left: 210px;
+              width:150px;
+              height:150px;
+                } 
+                .ind{
+                  position:absolute;
+                  bottom: 110px;
+              left: 500px;
+              width:170px;
+              height:150px;     
+
+                } 
+                .des{
+                  position:absolute;
+                  bottom: 110px;
+                  right: 560px;
+                  width:150px;
+                  height:150px;
+
+                } 
+                .bev{
+                  position:absolute;
+                  bottom: 110px;
+                  right: 250px;
+                  width:150px;
+                  height:150px;
+
+                } 
+  

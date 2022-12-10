@@ -1,0 +1,66 @@
+    body{
+    background: url("D:\React\my-react-app\public\nutribg.png") no-repeat center  fixed;
+  background-size: cover;
+  height: 2%;
+  width: 56%;
+  overflow: hidden;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+.container { 
+    padding: 200px; 
+    width: 45%;
+    height: 20%;
+    padding: 100px;
+    position:fixed;
+    margin-top: 75px;
+    right: 30%;
+    background-color: rgba(25, 130, 164, 0.62);
+
+    border: none;
+}
+.cont{
+        padding: 50px; 
+        width: 20%;
+        height: -3%;
+        padding: 20px;
+        position:fixed;
+        margin-top: -300px;
+        right: 65%;
+        background-color:rgba(217, 217, 217, 0.7);
+        border-radius: 50px;
+        border: none;
+        }
+.text{
+    top:300px;
+    text-align: center;
+    margin-top: -20px;
+}
+.arrow{
+    position: absolute;
+    top: -150px;
+    left: 15px;
+    width:12px;
+    height:12px;           
+    margin-left: -300px;
+}
+.logo{
+    position:absolute;
+    top: -200px;
+    left: 1070px;
+    width:150px;
+    height:150px
+     }
+     .look{
+        position:absolute;
+    top:-40px;
+    left: 850px;
+    width:100px;
+    height:100px
+     }

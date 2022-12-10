@@ -1,0 +1,105 @@
+button { 
+    background-color: rgb(8, 71, 84, 1); 
+    color:rgb(198, 193, 193);
+    border-radius: 70px;
+    border: none;
+    font-size: 400%;
+    position: center;
+    bottom: 100%;
+    width: 125px;
+    height: 55px;
+    }
+    input[type=text], input[type=password] { 
+      width: 90%; 
+      margin: 10px 0;
+      padding: 10px 30px; 
+      background-color: rgb(8, 71, 84, 1);
+      align-items: center; 
+      box-sizing: border-box;
+      border: none;
+      position: center;
+      font-size: 600%;
+    }
+    button:hover { 
+        opacity: 0.5; 
+    }  
+    .container { 
+      padding: 100px; 
+      width: 50%;
+      height: 43%;
+      padding: 100px;
+      position:fixed;
+      margin-top: 80px;
+      right: 17%;
+      background-color:rgba(217, 217, 217, 0.7);
+      border-radius: 50px;
+      border: none;
+      }
+    body{
+    background-image: url("D:\React\my-react-app\src\images\loginbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+    background-attachment: fixed;
+    overflow: hidden;
+    }
+    ::placeholder
+    {
+      font-family:kadwa ;
+      color: rgba(255, 255, 255, 1);
+      opacity: 0.5;
+      font-size: "15";
+    }
+    .top {
+      position: absolute;
+      top: 30px;
+      right: 400px;
+      font-size: 50px;
+      font-style: normal;
+      text-align: center;
+    }
+    .bottom {
+      position: absolute;
+      bottom: 170px;
+      left: 600px;
+      font-size: 30px;
+      font-style: bold;
+    }
+   hr{
+    height: 2px;
+    border: none;
+    background-color: #082F54;
+    width: 126%;
+    margin-left: -100px;
+    margin-right: auto;
+   }
+   .img{
+    position: absolute;
+  left: 764px;
+  top: 143px;
+  width: 45px;
+  height: 45px;
+   }
+   .eye{
+    position: absolute;
+  left: 762px;
+  top: 240px;
+  width: 45px;
+  height: 45px;
+   }
+   .logo{
+  position:absolute;
+  top: 1px;
+  left: 12px;
+  width:120px;
+  height:120px
+   }
+   .container1{
+    position: absolute;
+    font: Inter;
+    bottom: 50px;
+    right: 50px;
+    font-size: 2px;
+    width: 37%;
+    color: aliceblue;
+   }
