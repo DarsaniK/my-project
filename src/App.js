@@ -1,20 +1,17 @@
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './Project/Login';
+import Login from "./Project/Login";
 import Search from './Project/search';
 import './App.css';
-function App()
-{
-  return(
-      <div className="App">
-      <BrowserRouter>
+
+function App() {
+  return (
+    <BrowserRouter>
       <Routes>
-      <Route path="/Login" element={<Login/>}></Route>
-      <Route path="/" element={<Search/>}></Route>
+          <Route index element={<Login />} />
+          <Route path="LOG IN" element={<Search />} />
       </Routes>
-        
-      </BrowserRouter>
-      </div>
+    </BrowserRouter>
   );
 }
-
-export default App;
+ export default App;

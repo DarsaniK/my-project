@@ -3,23 +3,26 @@
     color:rgb(198, 193, 193);
     border-radius: 70px;
     border: none;
-    font-size: 400%;
-    position: center;
-    bottom: 100%;
-    width: 125px;
+    font-size: 30px;
+    position:absolute;
+    width: 155px;
     height: 55px;
+    bottom: 40px;
+    right: 400px;
     }
     input[type=text], input[type=password] { 
-      width: 90%; 
-      margin: 10px 0;
-      padding: 10px 30px; 
+      width: 80%;
+      height: 10%; 
+      margin: 3px 0;
+      padding: 25px; 
       background-color: rgb(8, 71, 84, 1);
       align-items: center; 
       box-sizing: border-box;
       border-radius: 70px;
       border: none;
       position: center;
-      font-size: 600%;
+     margin-top: -10px;
+     font-size: 100%;
     }
     button:hover { 
         opacity: 0.5; 
@@ -27,7 +30,7 @@
     .container { 
       padding: 100px; 
       width: 50%;
-      height: 43%;
+      height: 47%;
       padding: 100px;
       position:fixed;
       margin-top: 80px;
@@ -49,20 +52,20 @@
       font-family:kadwa ;
       color: rgba(255, 255, 255, 1);
       opacity: 0.5;
-      font-size: "15";
+      font-size: 230%;
     }
     .top {
-      position: absolute;
-      top: 30px;
-      right: 400px;
+      position: fixed;
+      top: 110px;
+      right: 650px;
       font-size: 50px;
       font-style: normal;
       text-align: center;
     }
     .bottom {
       position: absolute;
-      bottom: 170px;
-      left: 600px;
+      bottom: 135px;
+      left: 560px;
       font-size: 30px;
       font-style: bold;
     }
@@ -77,14 +80,14 @@
    .img{
     position: absolute;
   left: 730px;
-  top: 143px;
+  top: 183px;
   width: 45px;
   height: 45px;
    }
    .eye{
     position: absolute;
-  left: 762px;
-  top: 240px;
+  left: 732px;
+  top: 305px;
   width: 45px;
   height: 45px;
    }

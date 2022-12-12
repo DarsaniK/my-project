@@ -24,6 +24,7 @@ render() {
   <center><input type="text" placeholder="Enter username or email " name="username" required /></center><br></br><br></br><br></br>
   <center><font size="5">Password</font></center>
   <div class="container1">
+  
   <center><input type="password" placeholder="Enter password" name="password" required /></center></div>
   <font color="#084754"><font face="kadwa"><font size="3"><div class="bottom"><b>Forget password?</b></div></font></font></font><br></br><br></br><br></br><br></br><br></br>
   <br></br><br></br><br></br>

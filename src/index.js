@@ -1,11 +1,11 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Login from './Project/Login';
+import Search from './Project/search'
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Login />
+        <Search/>
     </React.StrictMode>
 );
